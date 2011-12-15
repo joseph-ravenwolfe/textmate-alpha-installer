@@ -6,10 +6,9 @@ Automatically installs and configures TextMate 2.0 Alpha with ZenHTML, CoffeeScr
 Notes
 -----
 
-# ** This will not overwrite your TextMate 1 installation.
+* This will not overwrite your TextMate 1 installation.
 
-# ** TextMate 1 and TextMate 2 can not run simultaneously. You must close TextMate 1 before running
-# TextMate 2
+* TextMate 1 and TextMate 2 can not run simultaneously. You must close TextMate 1 before running TextMate 2
 
 
 Installation
