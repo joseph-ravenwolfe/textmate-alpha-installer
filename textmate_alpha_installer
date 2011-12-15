@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+echo "Please enter your sudo password so TextMate 2 can install to your Application directory."
 sudo echo
 cd ~/
 curl -L http://updates.textmate.org/Application/TextMate_r8930.tbz > TextMate_r8930.tbz
