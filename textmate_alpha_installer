@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "Please enter your sudo password so TextMate 2 can install to your Application directory."
+echo "Please enter your user password so TextMate 2 can install to your Application directory."
 sudo echo
 cd ~/
 curl -L http://updates.textmate.org/Application/TextMate_r8930.tbz > TextMate_r8930.tbz
@@ -8,7 +8,7 @@ tar -jxf TextMate_r8930.tbz
 sudo mv TextMate.app /Applications/TextMate\ 2.0.app
 git clone git@github.com:josephjaber/TextMate-2.0-Alpha-Bundles.git
 mkdir -p ~/Library/Application\ Support/TextMate/Managed/Bundles
-cp -r TextMate-2.0-Alpha-Bundles/* ~/Library/Application\ Support/TextMate/Managed/Bundles
+cp -r TextMate-2.0-Alpha-Bundles/Bundles/* ~/Library/Application\ Support/TextMate/Managed/Bundles
 cp TextMate-2.0-Alpha-Bundles/.tm_properties ~/.tm_properties
 sudo rm TextMate_r8930.tbz
 sudo rm -r TextMate-2.0-Alpha-Bundles
