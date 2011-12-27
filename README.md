@@ -14,7 +14,7 @@ Notes
 Installation
 ------------
 
-    bash < <(curl -s https://raw.github.com/josephjaber/TextMate-2.0-Alpha-Bundles/master/textmate_alpha_installer)
+    bash < <(curl -s https://raw.github.com/josephjaber/TextMate-2.0-Alpha-Installer/master/textmate_alpha_installer)
 
 Done, now just add TextMate 2 to your applications folder.
 
