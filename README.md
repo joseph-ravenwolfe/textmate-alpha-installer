@@ -8,7 +8,7 @@ Notes
 
 * This will not overwrite your TextMate 1 installation.
 
-* TextMate 1 and TextMate 2 can not run simultaneously. You must close TextMate 1 before running TextMate 2
+* TextMate 1 and TextMate 2 can not run simultaneously until the latest TextMate 2 updates are installed. You must close TextMate 1 before initially running TextMate 2.
 
 
 Installation
